@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Shopping Cart</title>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <!--Stylesheet -->
+    <link rel="stylesheet" href="css/cart.css" />
+</head>
+
+<body>
+
+    <header>
+        <!--NAVBAR-->
+        <div class="navbar-top">
+            <a href="#" class="box4">NAV n + 1..</a>
+            <a href="#" class="box3">NAV 3</a>
+            <a href="#" class="box2">NAV 2</a>
+            <a href="#" class="box1">NAV 1</a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                </form>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="cart-main">
+        <h3 id="cart-header">Your Cart</h3>
+    </div>
+
+    <!-- PRODUCT LISTING -->
+    <div class="container">
+        <!--edge -->
+        <div class="edges"></div>
+        <!--edge -->
+
+        <!-- ITEM LISTING 1  -->
+        <div class="item-listing">
+            <img src="raw/placeholder.jpg" alt="placeholder" id="placeholder">
+            <div class="item-info">
+                <!-- TEXT INFO -->
+                <div class="text">
+                    <p><span id="price">$34.99</span>Product Name</p>
+                    <p>Style: asfefasfef</p>
+                    <p>Quantity: 2</p>
+                    <p>SKU: 300459751</p>
+                </div>
+                <!-- BUTTON INFO -->
+                <div class="remove-edit">
+                    <button class="remove">REMOVE</button>
+                    <button class="edit">EDIT</button>
+                </div>
+            </div>
+        </div>
+        <!--edge -->
+        <div class="right-edge"></div>
+        <!--edge -->
+
+        <!--edge -->
+        <div class="edges"></div>
+        <!--edge -->
+
+        <!-- ITEM LISTING 1  -->
+        <div class="item-listing">
+            <img src="raw/placeholder.jpg" alt="placeholder" id="placeholder">
+            <div class="item-info">
+                <!-- TEXT INFO -->
+                <div class="text">
+                    <p><span id="price">$34.99</span>Product Name</p>
+                    <p>Style: asfefasfef</p>
+                    <p>Quantity: 2</p>
+                    <p>SKU: 300459751</p>
+                </div>
+                <!-- BUTTON INFO -->
+                <div class="remove-edit">
+                    <button class="remove">REMOVE</button>
+                    <button class="edit">EDIT</button>
+                </div>
+            </div>
+        </div>
+        <!--edge -->
+        <div class="right-edge"></div>
+        <!--edge -->
+
+
+        <!--edge -->
+        <div class="edges"></div>
+        <!--edge -->
+        <div class="price-summary">
+            <div class="price-content">
+
+                <h4 id="checkout-text" class="summary">SUMMARY</h4>
+
+                <p id="checkout-text"><span class="checkout-text">$159.99</span> Subtotal</p>
+                <p id="checkout-text"><span class="checkout-text">$15.99</span> Shipping</p>
+                <p id="checkout-text"><span class="checkout-text">$30.99</span> Estimated Tax</p>
+                <br>
+                <p id="checkout-text"><span class="checkout-text">$190.99</span> Total</p>
+            </div>
+
+            <!-- PAYMENT  -->
+            <div class="checkout-paypal">
+                <button id="checkout">CHECK OUT</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+
+</html>
