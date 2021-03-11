@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Payment</title>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Stylesheet -->
+    <link rel="stylesheet" href="css/payment.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1>Payment Information</h1>
+    </div>
+    <div class="row">
+        <div class="col-75">
+            <div class="container">
+                <div class="row">
+                    <div class="col-50">
+                        <h3>Credit Card Info</h3>
+                        <div class="information">
+                            <!-- name -->
+                            <label for="name">Full Name on Card</label>
+                            <input type="text" id="name" name="cardname" placeholder="John Doe">
+                            <!-- email -->
+                            <label for="cardnumber">Card Number</label>
+                            <input type="text" id="cardnumber" name="cardnumber" placeholder="xxxx xxxx xxxx xxxx">
+
+                            <div class="mini-label">
+                                <!-- city -->
+                                <label for="expiration">Expiration Date</label>
+                                <input type="text" id="expiration" name="userexpiration" size="10" placeholder="Your City">
+                                <!-- province -->
+                                <label for="province">CVV/CCV</label>
+                                <input type="text" id="province" name="userprovince" size="10"
+                                    placeholder="Your Province">
+                                <!-- postal code -->
+                                <label for="postal">Postal Code</label>
+                                <input type="text" id="postal" name="userpostal" size="10" placeholder="Postal ">
+                            </div>
+
+                            <div class="payment-btn">
+                                <button class="payment">PAYMENT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
