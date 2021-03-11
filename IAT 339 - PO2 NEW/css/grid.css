@@ -1,0 +1,28 @@
+.row {
+    grid-template-columns: repeat(12, 1fr);
+    display: -ms-flexbox, grid;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.col-50,
+.col-75 {
+    padding: 0 8em;
+}
+
+.container {
+    background-color:white;
+    border-radius: 11px;
+}
+
+.jumbotron {
+    font-size: 1.6em;
+    background: white;
+    padding: 0.2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
